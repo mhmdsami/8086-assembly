@@ -9,7 +9,7 @@ code segment
     mov ds, ax
     mov al, 05
     mov bl, 03
-    sub al, bl ;8-bit subtration
+    sub al, bl ;8-bit subtraction
     mov c, al
     code ends
 end start

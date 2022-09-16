@@ -11,7 +11,7 @@ code segment
     mov ds, ax
     mov ax, a
     mov bx, b
-    sub ax, bx ;16-bit subtration
+    sub ax, bx ;16-bit subtraction
     mov c, ax
     code ends
 end start

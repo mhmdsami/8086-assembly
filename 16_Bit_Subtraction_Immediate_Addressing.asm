@@ -9,7 +9,7 @@ code segment
     mov ds, ax
     mov ax, 2345h
     mov bx, 1234h
-    sub ax, bx ;16-bit subtration
+    sub ax, bx ;16-bit subtraction
     mov c, ax
     code ends
 end start

@@ -11,7 +11,7 @@ code segment
     mov ds, ax
     mov al, a
     mov bl, b
-    add al, bl ;8-bit subtration
+    add al, bl ;8-bit addition
     mov c, al
     code ends
 end start
