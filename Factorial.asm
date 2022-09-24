@@ -16,4 +16,3 @@ code segment
     mov f, al
     code ends
 end start
-    

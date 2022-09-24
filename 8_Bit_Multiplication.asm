@@ -1,5 +1,7 @@
 data segment
-    c dw ? ;for 16-bit result
+    a db 04
+    b db 02
+    c db ?
     data ends
 
 code segment
@@ -7,9 +9,9 @@ code segment
     start:
     mov ax, data
     mov ds, ax
-    mov al, 15
-    mov bl, 14
+    mov al, a
+    mov bl, b
     mul bl ;8-bit multiplication
-    mov c, ax
+    mov c, al
     code ends
 end start
